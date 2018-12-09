@@ -58,6 +58,9 @@ ul {
     color: #48418e;
     padding-right: 50px;
 }
+.menu a:hover {
+    color: #25133d;
+}
 .super {
     text-transform: uppercase;
     color: #25133d;  
@@ -95,21 +98,21 @@ h2 {
     box-sizing: border-box;
     padding-left: 0px;
 }
-.button1 {
-    margin-right: 30px;
-    border: 0.9px solid #e5e5e5;
-    background-color: #48418e;
-    padding: 10px 20px;
-    border-radius: 10%;
-    box-shadow: 1px 1px #e5e5e5;
-}
-.button2 {
-    border: 0.9px solid #e5e5e5;
-    background-color: none;
+.buttons a { 
+    text-decoration: none;
+    color: white;
+    border: 0.9px solid #e5e5e5; 
     padding: 10px 25px;
-    border-radius: 10%;
+    border-radius: 10px;
     box-shadow: 1px 1px #e5e5e5;
-}   
+    margin-right: 20px;
+}
+.buttons li {
+    display: block;
+}
+.buttons a:hover {
+    background-color: #48418e;
+}
 .ikonky {
     background-color: white;
     color:  #25133d;
